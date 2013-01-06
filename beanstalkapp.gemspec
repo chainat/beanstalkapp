@@ -150,12 +150,12 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activeresource>, ["= 2.3.5"])
+      s.add_runtime_dependency(%q<activeresource>, ["= 3.2.8"])
     else
-      s.add_dependency(%q<activeresource>, ["= 2.3.5"])
+      s.add_dependency(%q<activeresource>, ["= 3.2.8"])
     end
   else
-    s.add_dependency(%q<activeresource>, ["= 2.3.5"])
+    s.add_dependency(%q<activeresource>, ["= 3.2.8"])
   end
 end
 
